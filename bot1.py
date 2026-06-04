@@ -160,14 +160,19 @@ async def handle_reset(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 def main():
     logger.info("Запуск бота Центр Красок #1...")
 
+    import asyncio
+
     app = Application.builder().token(TELEGRAM_TOKEN).build()
 
     app.add_handler(CommandHandler("start", handle_start))
     app.add_handler(CommandHandler("reset", handle_reset))
-
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
     logger.info("Бот запущен...")
+    
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    
     app.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
