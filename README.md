@@ -1,5 +1,8 @@
 # reimagined-pancake
+<<<<<<< Updated upstream
 # reimagined-pancake
+=======
+>>>>>>> Stashed changes
 # Центр Красок #1 — Telegram Bot
 # 🎨 Центр Красок #1 — Telegram AI-ассистент
 
@@ -37,4 +40,8 @@ OPENROUTER_API_KEY=your_openrouter_key
 **Центр Красок #1** — интернет-магазин лакокрасочных материалов в Казахстане.
 - 🌐 [centr-krasok.kz](https://centr-krasok.kz/)
 - 📞 +7 (777) 292-84-01
+<<<<<<< Updated upstream
 - 🕐 Пн-Вс 10:00-20:00
+=======
+- 🕐 Пн-Вс 10:00-20:00
+>>>>>>> Stashed changes
